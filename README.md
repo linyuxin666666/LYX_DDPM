@@ -26,7 +26,7 @@ python train.py
 ```
 ### 生成
 
-采用上述训练的模型权重进行图像生成，可生成8*8图像网格以及16*16渐进式采样。
+采用上述训练的模型权重进行图像生成，可生成五中的图像网格以及渐进式采样的结果。
 ```bash
 python sample.py
 ```
@@ -54,7 +54,7 @@ python sample.py
 
 **详细记录的训练log如下：**
 
-- [loss_step.txt](Jittor_DDPM/training_logs/loss_step.txt)  
+- [loss_step.txt](Jittor_DDPM/training_logs_jittor/loss_step.txt)  
 - [loss_step.txt](Pytorch_DDPM/training_logs_pytorch/loss_step.txt)
 
 
@@ -70,7 +70,7 @@ python sample.py
 
 **详细记录的训练时间log如下：**
 
-- [jittor_train_time.txt](Jittor_DDPM/training_logs/train_time.txt)
+- [jittor_train_time.txt](Jittor_DDPM/training_logs_jittor/train_time.txt)
 - [torch_train_time.txt](Jittor_DDPM/training_logs_pytorch/train_time.txt)
   
 ### 3.3 采样时间对比曲线
@@ -84,7 +84,7 @@ python sample.py
 
 **详细记录的采样时间log如下：**
 
-- [jittor_sample_time.txt](Jittor_DDPM/training_logs/sample_time.txt)
+- [jittor_sample_time.txt](Jittor_DDPM/training_logs_jittor/sample_time.txt)
 - [torch_sample_time.txt](Jittor_DDPM/training_logs_pytorch/sample_time.txt)
 
 ---
