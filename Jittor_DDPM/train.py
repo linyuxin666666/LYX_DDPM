@@ -2,8 +2,8 @@ import jittor as jt
 from jittor.dataset.mnist import MNIST
 from jittor import transform
 from dataset import train_loader, model, optimizer, gaussian_diffusion, timesteps
-import time # <--- 新增：用于计时
-import matplotlib.pyplot as plt # <--- 新增：用于绘图
+import time 
+import matplotlib.pyplot as plt 
 
 
 
