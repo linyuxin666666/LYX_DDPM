@@ -54,8 +54,8 @@ python sample.py
 
 **详细记录的训练log如下：**
 
-- [loss_step.txt](Jittor_DDPM/training_logs_jittor/loss_step.txt)  
-- [loss_step.txt](Pytorch_DDPM/training_logs_pytorch/loss_step.txt)
+- [jittor_loss_step.txt](Jittor_DDPM/training_logs_jittor/loss_step.txt)  
+- [pytorch_loss_step.txt](Pytorch_DDPM/training_logs_pytorch/loss_step.txt)
 
 
 ### 3.2 训练时间对齐曲线
