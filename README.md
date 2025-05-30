@@ -71,7 +71,7 @@ python sample.py
 
 可以看到：
 - Pytorch版本的训练时间明显低于Jittor版本，每个epoch大约少25秒左右的时间。
-- Jittor版本的训练时间相较于Pytorch明显更短.
+- Jittor版本的训练时间相较于Pytorch明显更长.
 
 **详细记录的训练时间log如下：**
 
