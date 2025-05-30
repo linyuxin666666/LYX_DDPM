@@ -39,18 +39,18 @@ python sample.py
   
 #### 整体loss曲线
 
-Jittor:
+#### Jittor:
 ![step_loss_jittor](Curve/jittor_loss_curve_all_steps.png)
 
-Pytorch:
+#### Pytorch:
 ![step_loss_torch](Curve/torch_loss_curve_all_steps.png)
 
 #### 每200个step取一个点的loss曲线
 
-Jittor:
+#### Jittor:
 ![step_loss_jittor](Curve/torch_loss_curve_sampled_from_200.png)
 
-Pytorch:
+#### Pytorch:
 ![step_loss_torch](Curve/jittor_loss_curve_sampled_from_200.png)
 
 观察loss曲线，我们可以得出如下结论：
