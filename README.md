@@ -75,7 +75,7 @@ python sample.py
   
 ### 3.3 采样时间对比曲线
 
-最后，本项目对pytorch和jittor的实现版本的每个epoch的训练时间进行记录，对比图如下：
+最后，本项目对pytorch和jittor的实现版本的每生成一个batch的所需时间进行记录，（batch_size=64），对比图如下：
 ![sampling_time_conmaprison.png)](Curve/sampling_time_comparison.png)
 
 
