@@ -5,9 +5,9 @@ import math
 from abc import ABC, abstractmethod
 from jittor import transform
 from jittor.dataset.mnist import MNIST
-from tqdm import tqdm # 添加 tqdm 导入
-from PIL import Image # <--- 新增导入
-import numpy as np # <--- 新增导入
+from tqdm import tqdm 
+from PIL import Image 
+import numpy as np
 import matplotlib.pyplot as plt
 
 def linear_beta_schedule(timesteps):#生成α序列
