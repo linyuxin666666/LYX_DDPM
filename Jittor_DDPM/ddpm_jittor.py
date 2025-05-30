@@ -6,8 +6,8 @@ from abc import ABC, abstractmethod
 from jittor import transform
 from jittor.dataset.mnist import MNIST
 from tqdm import tqdm # 添加 tqdm 导入
-from PIL import Image # <--- 新增导入
-import numpy as np # <--- 新增导入
+from PIL import Image 
+import numpy as np 
 import time # <--- Added for timing epochs
 import matplotlib.pyplot as plt # <--- Added for plotting
 # 优先使用GPU（如果可用），否则使用CPU
