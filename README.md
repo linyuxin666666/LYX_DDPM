@@ -71,7 +71,7 @@ python sample.py
 **详细记录的训练时间log如下：**
 
 - [jittor_train_time.txt](Jittor_DDPM/training_logs_jittor/train_time.txt)
-- [torch_train_time.txt](Jittor_DDPM/training_logs_pytorch/train_time.txt)
+- [torch_train_time.txt](Pytorch_DDPM/training_logs_pytorch/train_time.txt)
   
 ### 3.3 采样时间对比曲线
 
@@ -85,7 +85,7 @@ python sample.py
 **详细记录的采样时间log如下：**
 
 - [jittor_sample_time.txt](Jittor_DDPM/training_logs_jittor/sample_time.txt)
-- [torch_sample_time.txt](Jittor_DDPM/training_logs_pytorch/sample_time.txt)
+- [torch_sample_time.txt](Pytorch_DDPM/training_logs_pytorch/sample_time.txt)
 
 ---
 
