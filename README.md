@@ -54,10 +54,10 @@ python sample.py
 
 **详细记录的训练log如下：**
 
-- [jittor_loss_step.txt](Jittor_DDPM/training_logs/loss_step.txt)  
-- [torch_loss_step.txt](Pytorch_DDPM/training_logs_pytorch/loss_step.txt)
+- [loss_step.txt](Jittor_DDPM/training_logs/loss_step.txt)  
+- [loss_step.txt](Pytorch_DDPM/training_logs_pytorch/loss_step.txt)
 
----
+
 ### 3.2 训练时间对齐曲线
 
 本项目对pytorch和jittor的实现版本的每个epoch的训练时间进行记录，对比图如下：
@@ -87,6 +87,8 @@ python sample.py
 - [jittor_sample_time.txt](Jittor_DDPM/training_logs/sample_time.txt)
 - [torch_sample_time.txt](Jittor_DDPM/training_logs_pytorch/sample_time.txt)
 
+---
+
 ## 四、分数对齐
 
   在这里，本项目测定了Pytorch版本和Jittor版本生成图片的FID分数和IS分数，FID分数用 `fid_score.py` 评估，IS用`is_score.py`来评估，用两个模型分别生成了10000张图片进行对照，结果如下（其中，FID对照的是MNIST测试集中的结果）：
@@ -99,6 +101,8 @@ IS（Inception Score）分数通过评估生成图像的多样性和生成质量
 此表可以得到的结论如下：
 - Jittor框架在FID分数上的表现明显优于Pytorch框架
 - Jittor在IS分数上的表现略优于Pytorch
+
+---
 
 ## 五、生成结果展示
 
@@ -115,3 +119,5 @@ IS（Inception Score）分数通过评估生成图像的多样性和生成质量
 ![Jittor_8*8.png)](/Jittor_DDPM/denoise_grid_output/denoising_steps_16x16.png)
 #### Pytorch：
 ![Pytorch_8*8.png)](/Pytorch_DDPM/denoise_grid_output/denoising_steps_16x16.png)
+
+---
