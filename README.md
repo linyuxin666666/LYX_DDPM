@@ -6,8 +6,8 @@
 ```bash
 conda create -n ddpm_jt python=3.8
 conda activate ddpm_jt
-pip install -r requirements.txt
 cd Jittor_DDPM
+pip install -r requirements.txt
 ```
 即可创建成功该项目的可运行环境，下面可在该环境下进行采样和训练。
 
