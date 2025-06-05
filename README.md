@@ -45,7 +45,7 @@ python sample.py
 #### Pytorch:
 ![step_loss_torch](Curve/torch_loss_curve_all_steps.png)
 
-#### 每200个step取一个点的loss曲线
+#### 每400个step取一个点的loss曲线
 
 #### Jittor:
 ![step_loss_jittor](Curve/torch_loss_curve_sampled_from_200.png)
